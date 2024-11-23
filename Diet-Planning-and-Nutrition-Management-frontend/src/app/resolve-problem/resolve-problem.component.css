@@ -1,0 +1,38 @@
+/* Center the text area on the page */
+.textarea-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  /* Style the card */
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the text area */
+  .text-area {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    font-family: Arial, sans-serif;
+    transition: border-color 0.3s;
+  }
+  
+  .text-area:focus {
+    border-color: #007bff;
+  }
+  

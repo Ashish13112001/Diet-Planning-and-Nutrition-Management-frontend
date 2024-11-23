@@ -1,0 +1,54 @@
+/* Center the card on the page */
+.card-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 200px;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  /* Style the card */
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the heading */
+  .card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333333;
+  }
+  
+  /* Style the paragraph */
+  .card p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the button */
+  .resolve-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resolve-btn:hover {
+    background-color: #0056b3;
+  }
+  

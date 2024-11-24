@@ -67,13 +67,14 @@
     color: red;
     font-size: 12px;
     margin-top: 5px;
+    margin-left: 32px;
   }
   
   /* Submit button styling */
   .btn {
     padding: 10px 20px;
     color: white;
-    background-color: #41cdbb;
+    background-color: #2b6f6b;
     border: none;
     border-radius: 5px;
     font-size: 16px;
